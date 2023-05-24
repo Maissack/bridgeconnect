@@ -1,0 +1,74 @@
+    .tags {
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+
+    .tag {
+        display: inline-block;
+        padding: 8px 12px;
+        margin-right: 10px;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+    .tag[data-tag="all"] {
+        background-color: #808080;
+        color: #fff;
+    }
+
+    .tag[data-tag="Nature"] {
+        background-color: #2ecc71;
+        color: #fff;
+    }
+
+    .tag[data-tag="Mode"] {
+        background-color: #3498db;
+        color: #fff;
+    }
+
+    .tag[data-tag="Food"] {
+        background-color: #f1c40f;
+        color: #fff;
+    }
+
+    .tag[data-tag="Travel"] {
+        background-color: #9b59b6;
+        color: #fff;
+    }
+
+    .tag[data-tag="Beauty"] {
+        background-color: #e74c3c;
+        color: #fff;
+    }
+
+    .tag[data-tag="Sport"] {
+        background-color: #1abc9c;
+        color: #fff;
+    }
+
+    .tag[data-tag="Tech"] {
+        background-color: #27ae60;
+        color: #fff;
+    }
+
+    .tag[data-tag="Music"] {
+        background-color: #2980b9;
+        color: #fff;
+    }
+
+    .tag[data-tag="Photography"] {
+        background-color: #16a085;
+        color: #fff;
+    }
+
+    .tag[data-tag="Art"] {
+        background-color: #d35400;
+        color: #fff;
+    }
+
+    .tag.active {
+        opacity: 0.7;
+    }
