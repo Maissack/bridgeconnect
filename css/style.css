@@ -1,0 +1,37 @@
+@import url(component/home.css);
+@import url(component/profile.css);
+@import url(component/sidenav.css);
+@import url(component/msg.css);
+@import url(component/popup.css);
+@import url(component/searchbar.css);
+@import url(component/taglist.css);
+@import url(component/tagtendance);
+
+
+
+
+/* Boutons de tri */
+.btn-tri {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: -2vh; 
+    margin-left: 20px;
+    margin-right: -20%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
