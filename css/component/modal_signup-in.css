@@ -1,0 +1,8 @@
+/* Modal lorsque l'user n'est pas co dans 'home.php' */
+.modal-open {
+    overflow: hidden;
+}
+
+.modal-open .blur-effect {
+    filter: blur(3px);
+}

@@ -1,0 +1,30 @@
+.sidebar {
+    margin: 0;
+    padding: 0;
+    width: 300px;
+    background-color: orange;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    transition: 0.5s;
+    left: 0;
+}
+
+.sidebar a {
+    display: block;
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+    background-color: orange;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.sidebar a:hover {
+    background-color: rgb(200, 131, 2);
+    color: black;
+    font-weight: 800;
+}
+
+
+

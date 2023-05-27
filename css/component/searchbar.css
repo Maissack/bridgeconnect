@@ -1,0 +1,16 @@
+#search-bar {
+    display: flex;
+    justify-content: start; 
+    margin-left: 40%; 
+}
+
+/* Animation qui fait respirer la search-bar */
+@keyframes breathe {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+    100% { transform: scale(1); }
+  }
+  
+#search-bar {
+    animation: breathe 2s infinite ease-in-out;
+}

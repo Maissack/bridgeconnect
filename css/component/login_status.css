@@ -1,0 +1,16 @@
+/* Statut de connexion dans 'Profile'*/
+.login-status {
+    font-size: 20px;
+    color: #6c757d;
+    margin-top: 20px;
+    padding: 10px;
+    text-align: center;
+}
+
+.login-status.connected {
+    color: green; 
+}
+
+.login-status.disconnected {
+    color: red; 
+}

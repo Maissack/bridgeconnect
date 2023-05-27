@@ -1,0 +1,15 @@
+.title {
+    color: white;
+    margin-top: 10%;
+    margin-left: 40%;
+}
+
+.login-status {
+    display: flex;
+    justify-content: end;
+    position: fixed;
+    margin-left: 25%; 
+    padding: 16px;
+    background-color: orange; 
+    color: black; 
+}

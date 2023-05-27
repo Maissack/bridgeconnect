@@ -1,0 +1,89 @@
+@import url(component/home.css);
+@import url(component/profile.css);
+@import url(component/sidenav.css);
+@import url(component/msg.css);
+@import url(component/modal_post.css);
+@import url(component/searchbar.css);
+@import url(component/taglist.css);
+@import url(component/tagtendance.css);
+@import url(component/modal_signup-in.css);
+@import url(component/login_status.css);
+
+
+
+/* LA RESPONSIVE */
+@media (max-width: 1200px) {
+    .sidebar {
+        width: 100%;
+        height: auto;
+        position: relative;
+        left: 0;
+    }
+    .sidebar a {
+        padding: 10px;
+        font-size: 18px;
+    }
+    .tags {
+        margin-left: 20%;
+        margin-right: -20%;
+        
+    }
+    #search-bar {
+        margin-left: 20%; 
+    }
+    .post {
+        margin-left: 20%; 
+        margin-right: -20%;
+    }
+}
+
+
+@media (max-width: 800px) {
+    .sidebar {
+        width: 100%;
+        height: auto;
+        position: relative;
+        left: 0;
+    }
+    .sidebar a {
+        padding: 10px;
+        font-size: 18px;
+    }
+    .tags {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    #search-bar {
+        margin-left: 5%; 
+        margin-right: 5%;
+    }
+    .post {
+        margin-left: 5%; 
+        margin-right: 5%;
+    }
+    .btn-tri {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .title {
+        margin-top: 20%;
+        margin-left: 25%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
