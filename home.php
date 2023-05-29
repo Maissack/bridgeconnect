@@ -64,6 +64,8 @@
                     <span class="tag" data-tag="Photography">Photography</span>
                     <span class="tag" data-tag="Art">Art</span>
                 </div>
+            
+
 
 
                 <?php
@@ -141,7 +143,6 @@
                             echo '</div>';
                             }
                 ?>
-            </div>
         </div>
     </div>
 </div> <!-- div du blur effect -->
@@ -191,7 +192,7 @@ echo ';</script>';
 
                     <textarea name="message" placeholder="Message (280 characters maximum)" required maxlength="280"></textarea>
                     <select name="tag" required>
-                        <option disabled selected>Sélectionner un tag</option>
+                    <option value="" disabled selected>Sélectionner un tag</option>
                         <option value="Nature">Nature</option>
                         <option value="Mode">Mode</option>
                         <option value="Food">Food</option>
