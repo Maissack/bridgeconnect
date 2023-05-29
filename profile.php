@@ -23,7 +23,7 @@ if (isset($_POST['logout'])) {
 
 <body>
 
-    <div class="blur-effect">
+<div class="blur-effect">
     <div class="container-fluid">
 
         <!-- La sidebar -->
@@ -71,13 +71,9 @@ if (isset($_POST['logout'])) {
                     }
                 ?>
             </div>
-        </div>
     </div>
-    </div>
+</div> <!-- Div du blur effect -->
 
-
-    </div>
-</div>
 
 
 
